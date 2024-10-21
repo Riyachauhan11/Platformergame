@@ -1,5 +1,3 @@
-Here’s the updated `README.md` with content only up to the "How to Play" section:
-
 ---
 
 # 2D Platformer Adventure Game
@@ -15,27 +13,27 @@ This is a **tile-based, 2D platformer adventure** game where the player navigate
 ## Project Structure
 
 ```
-|-- assets/
+|-- images/
 |   |-- sprites/           # Character and enemy sprites
 |   |-- tilesets/          # Tile-based environment textures
+|-- audio/   
 |   |-- sounds/            # Background music and sound effects
 |
-|-- src/
+|-- ./
 |   |-- main_game.py       # The main game logic file
 |   |-- level_editor.py    # A level editor for creating new levels
 |
 |-- levels/
-|   |-- level1.json        # Sample level layout
-|   |-- level2.json        # Additional levels
+|   |-- level0_data.csv        # Sample level layout
+|   |-- level1_data.csv        # Additional levels
 |
-|-- dist/
-|   |-- game.zip           # Contains the playable game executable (.exe)
+
 ```
 
 ## How to Play
 
 1. **Start the Game**:
-   - Extract the `game.zip` file located in the `dist` folder.
+   - Extract the `platformere.zip` file.
    - Run the `.exe` file to launch the game.
 
 2. **Controls**:
@@ -48,4 +46,3 @@ This is a **tile-based, 2D platformer adventure** game where the player navigate
 
 ---
 
-This version should fit your needs!
